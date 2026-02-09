@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Practice-03/config-server
