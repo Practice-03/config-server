@@ -7,3 +7,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+address:
+  service:
+    url: http://localhost:8082/addresses
